@@ -1,0 +1,1986 @@
+ *{
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: #cec2c240;
+}
+
+#overall{
+    width: 100%;
+    min-height: 4vh;
+}
+
+#headercontainer{
+    background-color: #e3e6f3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+br{
+    background-color: #e3e6f3;
+}
+
+#logo{
+    background-size: cover;
+    height: 2.5rem;
+    width: 4rem;
+
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+}
+
+#ecomart{
+    height: 120%;
+    width: 100%;
+}
+
+.deliver{
+    font-style: none;
+}
+
+#d1-container{
+    height: 3.5rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+}
+
+#d2-container{
+    height: 80%;
+    width: 100%;
+
+    text-decoration: none;
+    color: #1a1a1a;
+    background-color: #e3e6f3;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border: none;
+
+}
+
+#deliver1{
+    font-size: 0.9rem;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-left: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#ecomartend{
+    width: 15%;
+    height: 100%;
+}
+
+#deliver2{
+    font-size: 1.1rem;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+#searching{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 710px;
+    border-radius: 5px;
+}
+
+#searching:hover{
+    border: #1a1a1a solid 2px;
+    border-radius: 5px;
+}
+
+
+
+#products{
+    color: #ffffff;
+    height: 100%;
+    width: 52px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: #1a1a1a;
+    background-color: #e3e6f3;
+    border: 2px solid #ae9d9d;
+}
+
+#Search{
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0px;
+    border: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: #1a1a1a;
+    background-color: #e3e6f3;
+    border: 2px solid #ae9d9d;
+    border-left: none;
+    border-right: none;
+}
+
+#search_icon{
+    height: 100%;
+    width: 45px;
+    padding: 0px;
+    border: 0px;
+    background-color: #e3e6f3;
+    border: 2px solid #ae9d9d;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+#search_icon i{
+    margin: 9px 0px 0px 6px;
+    ;
+}
+
+#lang{
+    height: 2.5rem;
+    width: 5.5rem;
+    color: #ffffff;
+    transition: 0.3s ease;
+    font-size: 0.9rem;
+    border: 1.6px;
+    border-radius: 6%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    color: #1a1a1a;
+    background-color: #e3e6f3;
+
+}
+#signin_button{
+    height: 3.5rem;
+    width: 9rem;
+    display: flex;
+    align-items: center;
+}
+
+#signin{
+    height: 100%;
+    width: 100%;
+    background-color: #e3e6f3;
+    border-radius: 6%;
+    border: 0px;
+    padding: 0px;
+    color: #1a1a1a;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#content1{
+    transition: 0.3s ease;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    position: relative;
+}
+
+#content2{
+
+    margin: 0px;
+
+    position: relative;
+    right: 11px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+
+#orders_button{
+    height: 2.5rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    background-color: #e3e6f3;
+}
+
+#orders{
+    color: #1a1a1a;
+    background-color: #e3e6f3;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 6%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content3{
+
+    margin: 0px;
+    transition: 0.3s ease;
+    position: relative;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#content4{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    position: relative;
+    font-size: 1rem;
+    transition: 0.3s ease;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#cart_button{
+    height: 1.5rem;
+    width: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e3e6f3;
+    color: #1a1a1a;
+}
+
+#cart{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 6%;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#cart_button a i{
+    font-size: 1.6rem;
+    margin-top: 25px;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 12px;
+    text-decoration: none;
+}
+
+#cart_button a i:hover,
+#cart_button a i.active{
+    color: #088178;
+    /* text-decoration: underline; */
+}
+
+#orders:hover,
+#orders.active{
+    color: #088178;
+    text-decoration: underline;
+}
+
+#signin p:hover,
+#signin p.active{
+    color: #088178;
+    text-decoration: underline;
+}
+
+#d1-container a p:hover,
+#d1-container a p.active{
+    color: #088178;
+    text-decoration: underline;
+}
+
+#lang:hover{
+    color: #088178;
+    text-decoration: underline;
+}
+
+.footer_main {
+    width: 100%;
+    height: 75vh;
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #headercontainer {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      height: 3rem;
+    }
+    #logo {
+      width: 5rem;
+      text-align: center;
+    }
+    #d1-container {
+      width: 4rem;
+      text-align: center;
+    }
+    #searching {
+      width: 9rem;
+      /* flex-direction: column;
+      align-items: center; */
+    }
+    #products {
+      width: 3rem;
+    }
+    #Search {
+      /* border-left: 2px solid #ae9d9d;
+      border-right: 2px solid #ae9d9d; */
+      width: 6rem;
+    }
+    #search_icon {
+      margin-left: 0;
+      width: 2rem;
+    }
+    #language {
+        width: 5rem;
+      text-align: center;
+    }
+    #signin_button, #orders_button, #cart_button {
+      width: 5.5rem;
+      text-align: center;
+    }
+
+    #categories {
+        width: 100%;    
+        display: flex;
+    }
+    /* #categories a{
+        padding: 0px 12px 0px 6px;
+    } */
+
+    #asus{
+        display: block;
+    }
+
+    .img1{
+        height: 65vh;
+    }
+
+    #content h1{
+        font-size: 2rem;
+    }
+
+    #content p{
+        font-size: 1rem;
+    }
+
+    .commoncontainer p{
+        font-size: 0.7rem;
+    }
+
+    .tobottom i{
+        /* position: relative;
+        right: 0rem;
+        top: 0rem; */
+        font-size: 1rem;
+    }
+
+    .commoncontainer img{
+        height: 45%;
+        width: 65%;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        padding: 0px;
+    }
+
+    .commoncontainer #cpuresize{
+        width: 9rem;
+        margin-left: 2rem;
+    }
+
+    .commoncontainer #KBresize{
+        height: 4rem;
+        width: 8rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .commoncontainer #mouseresize{
+        height: 8.5rem;
+        width: 6rem;
+        margin-left: 4rem;
+    }
+
+    .Lcommondescription{
+        font-size: 0.7rem;
+    }
+
+    .footer_main {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+  }
+  
+
+main{
+    min-height: auto;
+    width: 100%;
+}
+
+
+#asus{
+    /* left: 35px; */
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    /* left: 35px; */
+    position: relative;
+    overflow: hidden;
+    margin: 3vh 0px 3vh 0px;
+}
+
+#categories{
+    min-height: 4vh;
+    width: 100vw;
+    background-color: #ae9d9d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    /* box-shadow: 0px 0px 3px; */
+}
+
+#category1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+#category1 a,#category2 a{
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+#category1 a:hover{
+    color: #e3e6f3;
+    text-decoration: underline;
+}
+
+#category2{
+    height: 100%;
+    width: 34%;
+    display: flex;
+    text-align: center;
+    justify-content:end;
+    align-items: center;
+    gap: 25px;
+}
+
+#category2 a:hover{
+    color: #e3e6f3;
+    text-decoration: underline;
+}
+
+/* #gaming{
+    padding-left: 10px;
+    padding-right: 8px;
+    border-right: 1.5px solid #1a1a1a;
+}
+
+#business{
+    padding-left: 10px;
+    padding-right: 8px;
+    border-right: 1.5px solid #1a1a1a;
+} */
+
+#students_store{
+    margin-right: 25px;
+}
+
+.img1{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.nav{
+    text-align: center;
+    /* position: relative; */
+    height: 100%;
+    /* bottom: 350px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* #nav1{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#nav2{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+} */
+
+.nav button{
+    /* height: 50px;
+    width: 50px; */
+    /* border: 1px solid black; */
+    /* border-radius: 50%; */
+    /* box-shadow: #1a1a1a; */
+    font-size: 15px;
+    padding: 5px;
+}
+
+#nav1{
+    position: relative;
+    /* bottom: 350px; */
+    /* border-radius: 50%; */
+    border: none;
+    background-color: transparent;
+}
+
+#nav1 i{
+    font-size: 3rem;
+    color: #b7b4b4;
+}
+
+#nav2{
+    position: relative;
+    /* bottom: 350px; */
+    /* border-radius: 50%; */
+    border: none;
+    background-color: transparent;
+}
+
+#nav2 i{
+    font-size: 3rem;
+    color: #b7b4b4;
+}
+
+#main_products{
+    width: 100%;
+    min-height: 100vh;
+    /* border: 1px solid black; */
+}
+
+#product_id1{
+    min-height: 60vh;
+    width: 100%; 
+    /* background-image: url(""); */
+    background-size: cover;
+}
+
+#product2_3_container{
+    min-height: 30vh;
+    width: 100%;
+    display: flex;
+}
+
+#product2{
+    width: 50%;
+    height: 100%;
+}
+
+#product2_img{
+    width: 100%;
+    height: 100%;
+}
+
+#product3{
+    width: 50%;
+    height: 100%;
+}
+
+#product3_img{
+    width: 100%;
+    height: 100%;
+}
+
+#bestsellers1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+
+}
+
+#bestsellers2{
+    margin: -1.5rem 0px 0px -1rem;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+.parentcontainer{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+
+}
+
+.diff_products{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    /* padding-bottom: 20px; */
+    margin-top: 5px;
+}
+
+.product_4567{
+    width: 24%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #b7b4b4;
+
+}
+
+.product_4567:hover{
+    box-shadow: 3px 3px 3px 3px #b7b4b4;
+    transform: scale(1.05);
+}
+
+.commoncontainer{
+    /* padding: 30px 30px 30px 0px; */
+    width: 85%;
+    height: 100%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.commonimages{
+    width: 93%;
+    height: 57%;
+    background-size: cover;
+}
+
+.tobottom{
+    font-size: 2rem;
+    display: inline;
+    display: flex;
+    align-items: end;
+    /* left: 0rem; */
+    text-decoration: none;
+}
+
+.tobottom i{
+    transition: 0.3s ease;
+}
+
+/* .price{
+    margin: 15px 0px 0px 0px;
+} */
+
+.description{
+   margin-top: 10px; 
+}
+
+
+.viewall{
+    font-size: 1.1rem;
+    text-decoration: none;
+    /* position: relative;
+    top: 12.5rem;
+    right: 6rem; */
+}
+
+.viewall:hover{
+    text-decoration: underline;
+    /* text-shadow: 1px 1px 1px 1px blue; */
+}
+
+.description:hover{
+    text-decoration: underline;
+}
+
+.price:hover{
+    text-decoration: underline;
+}
+
+.tobottom:hover{
+    /* transform: scale(1.2); */
+    color: aqua;
+}
+
+#phones{
+    height: 52%;
+    width: 66%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#cpuresize{
+    width: 11rem;
+    /* margin-left: 3rem; */
+}
+
+#KBresize{
+    height: 8rem;
+    width: 15rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+#mouseresize{
+    height: 11.5rem;
+    width: 9rem;
+    /* margin-left: 4rem; */
+}
+
+#lenovo_gaming{
+    width: 100vw;
+    height: 35vh;
+    background-color: #5b296d;
+    display: flex;
+    justify-content: center;
+}
+
+#lenovo_offer{
+    background-size: cover;
+    height: 42%;
+    width: 52%;
+    margin-left: 0rem
+}
+
+#lenovo_offer{
+    transition:all 2s ease-out;
+
+}
+
+#lenovo_offer:hover{
+    transform: rotate(360deg) scale(2);
+}
+
+#tolink{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#content{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#lenovo_gaming_heading{
+    font-size: 34px;
+    height: fit-content;
+    width: fit-content;
+    font-family: arial;
+    color: #ffffff;
+    /* margin-right: 10px; */
+    display: block;
+    margin: 0px;
+}
+
+#lenovo_gaming_text{
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: 15px 0px 0px 0px;
+}
+
+#lenovo_gaming_text2{
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+
+#exgaming{
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#exgaming:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.commontext{
+    text-decoration: none;
+    color: white;
+}
+
+.samsungfoldimg{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+#samsungfoldmain{
+    width: 100%;
+    height: 100%;
+}
+
+/* #buybutton{
+    height: 40px;
+    width: 140px;
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    color: black;
+    position: relative;
+    bottom: 16vh;
+    left: 64vw;
+    border:1.5px solid black;
+    border-radius: 5%;
+} */
+
+.logoend{
+    width: 100%;
+    height: 25%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  /* Mobile Devices */
+  @media only screen and (max-width: 480px) {
+    #headercontainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        min-height: 4vh;
+
+      }
+      #logo {
+        height: 2rem;
+        width: 3rem;
+        text-align: center;
+      }
+      #d1-container {
+        width: 2rem;
+        text-align: center;
+        font-size: 0.6rem;
+      }
+
+      #d1-container a p{
+        font-size: 0.6rem;
+        margin: 0px;
+      }
+      
+      #searching {
+        width: 8rem;
+        /* flex-direction: column;
+        align-items: center; */
+      }
+
+      #seacrhing select option{
+        font-size: 0.5rem;
+      }
+
+      #products {
+        width: 2.66rem;
+        font-size: 1rem;
+      }
+      #Search {
+        /* border-left: 2px solid #ae9d9d; */
+        /* border-right: 2px solid #ae9d9d; */
+        width: 3.5rem;
+      }
+      #search_icon {
+        margin-left: 0;
+        width: 2rem;
+      }
+      #language {
+          width: 4rem;
+        text-align: center;
+        font-size: 0.6rem;
+      }
+
+      #bestsellers1 h1{
+        font-size: 2rem;
+      }
+
+      #language select{
+        font-size: 0.6rem;
+        width: 3.77rem;
+      }
+
+      #signin_button, #orders_button, #cart_button {
+        width: 2.3rem;
+        text-align: center;
+        font-size: 0.6rem;
+      }
+
+      #cart_button {
+        width: 1.5rem;
+        text-align: center;
+        font-size: 0.5rem;
+      }
+
+      #cart_button a i{
+        font-size: 1.3rem;
+      }
+
+      #signin_button a p{
+        font-size: 0.5rem;
+      }
+
+      #orders_button a p{
+        font-size: 0.5rem;
+      }
+
+      #cart_button a p{
+        font-size: 0.5rem;
+      }
+
+    #categories {
+        min-height: 2vh;
+        width: 100%;    
+        display: flex;
+        font-size: 0.5rem;
+    }
+
+    #category2{
+        gap: 15px;
+        width: fit-content;
+    }
+    /* #categories a{
+        padding: 0px 6px 0px 3px;
+    } */
+
+    #students_store{
+        margin-right: 10px;
+    }
+
+    #asus{
+        max-height: 30vh;
+    }
+
+    #product_id1{
+        min-height: 23vh;
+    }
+
+    #main_products{
+        min-height: 35vh;
+    }
+
+    #product2_3_container{
+        min-height: 12vh;
+    }
+
+    .star{
+        /* color: #FFD700; */
+        font-size: 0.6rem;
+    }
+
+    .nav button{
+        width: 32px;
+        max-height: 29px;
+    }
+
+    .parentcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .parentcontainer .diff_products{
+        width: 100%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container #content h1{
+        font-size: 1.4rem;
+    }
+
+    #container #content #lenovo_gaming_text{
+        font-size: 0.5rem;
+        margin: 3px;
+    }
+
+    #container #content #lenovo_gaming_text2{
+        font-size: 0.5rem;
+        margin-bottom: 3px;
+    }
+
+    #container #content button{
+        width: 86px;
+        height: 24px;
+        font-size: 0.6rem;
+    }
+
+    .footer_columns{
+        flex-direction: column;
+        font-size: 0.6rem;
+        /* width: 85%;
+        min-height: 13%; */
+    }
+
+    #ecomartend {
+        width: 30%;
+        height: 75%;
+    }
+
+    form input{
+        width: 120%;
+    }
+
+    form button{
+        width: 75%;
+    }
+
+    #lenovo_offer {
+        height: 22%;
+        width: 52%;
+    }
+
+    .logoend {
+        width: 80%;
+        height: 25%;
+        align-items: flex-end;
+    }
+
+    .product_4567{
+        width: 100%;
+    }
+
+    .footer_main {
+        width: 100%;
+        height: 54vh;
+        background-color: #333;
+        color: #fff;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer_columns{
+        width: 85%;
+        height: 33%;
+    }
+  }
+
+.star{
+    color: #FFD700;
+
+}
+
+.top{
+    width: 100%;
+    background-color: #ae9d9d;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top .icon{
+    font-size: 2rem;
+    height: 50%;
+}
+
+.top a p{
+    display: flex;
+    justify-content: center;
+}
+
+.top p:hover{
+    color: #ffffff;
+}
+
+ /* sample */
+
+  .footer_columns {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 85%;
+    height: 28%;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .column {
+    width: 50%;
+
+  }
+
+  .column ul{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .column h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column li {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .column a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer_bottom {
+    background-color: #222;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  
+  .footer_bottom p {
+    margin: 0;
+    color: #fff;
+  }
+
+  .lastc{
+    font-size: 13px;
+    font-family: arial;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.lastb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.footerend{
+    text-decoration: none;
+    color: #fff;
+    width: 10%;
+    height: 20%;
+}
+
+
+.cart{
+    width: 100%;
+    height: 60vh;
+}
+
+.contact{
+    width: 100%;
+    height: 60vh;
+}
+
+.laptopcategories{
+    /* width: 100%;
+    height: 100%; */
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif,Verdana, Geneva, Tahoma;
+}
+
+
+.category1{
+    width: 100%;
+    height: 40%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.Lcommonimg{
+    width: 22%;
+    height: 80%;
+    background-size: cover;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.Lcommonimg img{
+    width: 100%;
+    height: 100%;
+} 
+
+.Lcommondescription{
+    height: 20rem;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+/* .Lcommondescription h1{
+    width: 100%;
+    height: 100%;
+    font-size:inherit;
+} */
+
+.category1:hover{
+    cursor: pointer;
+    transform:scale(1.05);
+}
+
+.Lcommondescription h1{
+    padding: 0px 0px 10px 0px;
+}
+
+.Lcommondescription .star{
+    padding: 10px 0px 10px 0px;
+}
+
+.Lcommondescription p{
+    padding: 10px 0px 0px 0px;
+}
+
+.nav1{
+    width: 100%;
+    height: 60vh;
+}
+
+@media only screen and (min-height: 803.200px){
+    #asus{
+        max-height: 30vh;
+    }
+
+    #categories{
+        min-height: 2vh;
+    }
+
+    #product_id1{
+        min-height: 24vh;
+    }
+
+    #product2_img {
+        min-height: 20vh;
+    }
+
+    #product3_img{
+        min-height: 20vh;
+    }
+
+    #bestsellers1 h1{
+        font-size: 2rem;
+    }
+
+    #main_products {
+        min-height: 45vh;
+    }
+
+    .tobottom{
+        font-size: 16px;
+    }
+
+    #phones{
+        height: 50%;
+        width: 66%;
+    }
+
+    .commoncontainer {
+        height: 100%;
+        width: 90%;
+    }
+
+    .description{
+        font-size: 12px;
+    }
+
+    #cpuresize {
+        width: 7rem;
+        margin-left: 0rem;
+}
+
+#KBresize {
+    height: 5rem;
+    width: 11rem;
+}
+
+.footer_columns {
+    width: 85%;
+    height: 70%;
+}
+
+#product2_3_container {
+    min-height: 20vh;
+    width: 100%;
+    display: flex;
+}
+
+#lenovo_gaming {
+    width: 100vw;
+    height: 26vh;
+    background-color: #5b296d;
+    display: flex;
+    justify-content: center;
+}
+
+#lenovo_offer {
+    height: 20%;
+    width: 54%;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_columns{
+    width: 85%;
+    height: 14%;
+}
+
+.logoend{
+    height: 11%;
+    margin-top: 1rem;
+}
+
+#ecomartend {
+    width: 25%;
+    height: 100%;
+}
+
+.footer_main {
+    width: 100%;
+    height: 85vh;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+}
+
+@media only screen and (height: 720px){
+    #d1-container a p{
+        font-size: 0.8rem;
+    }
+
+    #searching input{
+        width: 4rem;
+    }
+
+    #language select{
+        font-size: 0.8rem;
+    }
+
+    #signin_button a p{
+        font-size: 0.8rem;
+    }
+
+    #language{
+        width: 5rem;
+    }
+
+    #language select{
+        width: 4.7rem;
+    }
+
+    #d1-container a p{
+        margin-left: 0px;
+    }
+
+    #signin_button, #orders_button, #cart_button{
+        width: 4.5rem;
+    }
+
+    #orders_button a p{
+        font-size: 0.8rem;
+    }
+
+    #category1 a{
+        font-size: 0.8rem;
+    }
+
+    #category2{
+        width: 44%;
+        gap: 12px;
+    }
+
+    #category2 a{
+        font-size: 0.8rem;
+    }
+
+    #category2 #students_store{
+        margin-right: 10px;
+    } 
+
+    #asus{
+        height: 40vh;
+    }
+
+    #product_id1{
+        min-height: 40vh;
+    }
+
+    #main_products{
+        min-height: 0vh;
+    }
+
+    #product2_3_container{
+        min-height: 10vh;
+    }
+
+    .commoncontainer a #phones{
+        height: 40%;
+    }
+
+    .tobottom i{
+        font-size: 1.06rem;
+    }
+
+    .commoncontainer img{
+        height: 35%;
+        width: 80%;
+    }
+
+    .commoncontainer a #cpuresize{
+        width: 6rem;
+        margin-left: 0rem;
+        height: 45%;
+    }
+
+    .commoncontainer #KBresize{
+        height: 3rem;
+        width: 7rem;
+    }
+
+    .commoncontainer #mouseresize{
+        height: 7rem;
+        width: 5rem;
+        margin-left: 0px;
+    }
+
+    .footer_columns{
+        font-size: 0.8rem;
+    }
+
+    #ecomartend{
+        width: 30%;
+    }
+}
+
+
+@media only screen and (width < 350px) {
+    #headercontainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        min-height: 4vh;
+
+      }
+      #logo {
+        height: 1.5rem;
+        width: 2rem;
+        text-align: center;
+      }
+      #d1-container {
+        width: 2rem;
+        text-align: center;
+        font-size: 0.5rem;
+      }
+
+      #d1-container a p{
+        font-size: 0.5rem;
+        margin: 0px;
+      }
+
+      #bestsellers1 h1{
+        font-size: 1.5rem;
+      }
+      
+      #searching {
+        width: 8rem;
+        /* flex-direction: column;
+        align-items: center; */
+      }
+
+      #seacrhing select option{
+        font-size: 0.5rem;
+      }
+
+      #products {
+        width: 2.66rem;
+        font-size: 1rem;
+      }
+      #Search {
+        /* border-left: 2px solid #ae9d9d; */
+        /* border-right: 2px solid #ae9d9d; */
+        width: 3.5rem;
+      }
+      #search_icon {
+        margin-left: 0;
+        width: 2rem;
+      }
+      #language {
+          width: 4rem;
+        text-align: center;
+        font-size: 0.5rem;
+      }
+
+      #language select{
+        font-size: 0.5rem;
+        width: 3.3rem;
+      }
+
+      #signin_button, #orders_button, #cart_button {
+        width: 2.3rem;
+        text-align: center;
+        font-size: 0.5rem;
+      }
+
+      #cart_button {
+        width: 1.5rem;
+        text-align: center;
+        font-size: 0.5rem;
+      }
+
+      #cart_button a i{
+        font-size: 1rem;
+      }
+
+      #signin_button a p{
+        font-size: 0.5rem;
+      }
+
+      #orders_button a p{
+        font-size: 0.5rem;
+      }
+
+      #cart_button a p{
+        font-size: 0.5rem;
+      }
+
+    #categories {
+        min-height: 2vh;
+        width: 100%;    
+        display: flex;
+        font-size: 0.5rem;
+    }
+
+    #category1{
+        gap: 5px;
+    }
+
+    #category2{
+        gap: 10px;
+    }
+    /* #categories a{
+        padding: 0px 6px 0px 3px;
+    } */
+
+    #students_store{
+        margin-right: 10px;
+    }
+
+    #asus{
+        max-height: 20vh;
+    }
+
+    #product_id1{
+        min-height: 20vh;
+    }
+
+    #main_products{
+        min-height: 35vh;
+    }
+
+    #product2_3_container{
+        min-height: 12vh;
+    }
+
+    .star{
+        /* color: #FFD700; */
+        font-size: 0.6rem;
+    }
+
+    .nav button{
+        width: 32px;
+        max-height: 29px;
+    }
+
+    .parentcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .parentcontainer .diff_products{
+        width: 100%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container #content h1{
+        font-size: 1.4rem;
+    }
+
+    #container #content #lenovo_gaming_text{
+        font-size: 0.5rem;
+        margin: 3px;
+    }
+
+    #container #content #lenovo_gaming_text2{
+        font-size: 0.5rem;
+        margin-bottom: 3px;
+    }
+
+    #container #content button{
+        width: 86px;
+        height: 24px;
+        font-size: 0.6rem;
+    }
+
+    .footer_columns{
+        flex-direction: row;
+        font-size: 0.5rem;
+        /* width: 85%;
+        min-height: 13%; */
+    }
+
+    #ecomartend {
+        width: 30%;
+        height: 75%;
+    }
+
+    form input{
+        width: 120%;
+    }
+
+    form button{
+        width: 75%;
+    }
+
+    #lenovo_offer {
+        height: 16%;
+        width: 48%;
+    }
+
+    .logoend {
+        width: 80%;
+        height: 13%;
+        align-items: flex-end;
+    }
+
+    .product_4567{
+        width: 100%;
+    }
+
+    .footer_main {
+        width: 100%;
+        height: 70vh;
+        background-color: #333;
+        color: #fff;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer_columns{
+        width: 85%;
+        height: 15%;
+    }
+
+    #product3_img{
+        min-height: 15vh;
+    }
+
+    #product2_img{
+        min-height: 15vh;
+    }
+  }
+
+  @media only screen and (width = 1280px){
+    #ecomartend {
+        width: 15%;
+        height: 100%;
+    }
+
+    .footer_main {
+    width: 100%;
+    height: 75vh;
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+  }
+
+  /* @media only screen and (width < 1004px) and (width > 766px){
+    #KBresize {
+        height: 4rem;
+        width: 9rem;
+    }
+
+    .tobottom i{
+        font-size: 1.5rem;
+    }
+
+    #category2 {
+        width: 37%;
+    }
+
+    #logo{
+        width: 6rem;
+    }
+
+    #bestsellers1 h1{
+        font-size: 3rem;
+    }
+
+    #signin_button, #orders_button, #cart_button{
+        width: 6rem;
+    }
+
+    #language {
+        width: 5rem;
+        text-align: center;
+    }
+
+    #d1-container {
+        width: 5rem;
+  }
+
+  #headercontainer{
+    gap: 10px;
+  }
+} */
+
+  @media only screen and (width < 765px) and (width > 480px){
+    .commoncontainer #KBresize {
+        height: 3rem;
+        width: 5rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .tobottom i{
+        font-size: 1rem;
+    }
+
+    #searching {
+        width: 10rem;
+    }
+
+    #bestsellers1 h1{
+        font-size: 2rem;
+    }
+
+    #search{
+        width: 5rem;
+    }
+
+    .commoncontainer #cpuresize{
+        width: 4rem;
+        height: 35%;
+    }
+
+    .commoncontainer #mouseresize {
+        height: 6.5rem;
+        width: 5rem;
+        margin-left: 0rem;
+    }
+
+    .commoncontainer p {
+        font-size: 0.6rem;
+    }
+
+    .star i{
+        font-size: 0.6rem;
+    }
+
+    #phones {
+        height: 44%;
+        width: 66%;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    .commoncontainer img {
+        height: 30%;
+    }
+
+    #lenovo_offer {
+        background-size: cover;
+        height: 28%;
+        width: 32%;
+    }
+
+    #main_products {
+        width: 100%;
+        min-height: 62vh;
+    }
+
+    #product2_3_container {
+        min-height: 20vh;
+        width: 100%;
+        display: flex;
+    }
+
+    #asus{
+        height: 45vh;
+    }
+
+    #product_id1 {
+        min-height: 40vh;
+  }
+
+    #categories{
+        font-size: 0.7rem;
+    }
+
+    #categroy1 a{
+        gap: 6px;
+    }
+
+    #category2{
+        width: 43%;
+        gap: 7px;
+    }
+
+    #students_store {
+        margin-right: 10px;
+    }
+
+    #deliver2 {
+        font-size: 0.7rem;
+        margin-left: 0px;
+    }
+
+    #logo {
+        width: 3rem;
+        height: 1.5rem;
+    }
+
+    #lang {
+        height: 2.5rem;
+        width: 4.2rem;
+        font-size: 0.7rem;
+    }
+
+    #signin_button, #orders_button, #cart_button {
+        width: 3.6rem;
+    }
+
+    #signin_button a p{
+        font-size: 0.7rem;
+    }
+
+    #orders_button a p{
+        font-size: 0.7rem;
+    }
+
+    #cart_button a p{
+        font-size: 0.7rem;
+    }
+
+    #cart_button a i{
+        font-size: 1.4rem;
+    }
+
+    .footer_columns{
+        font-size: 0.7rem;
+    }
+
+    .logoend{
+        height: 15%;
+    }
+}
